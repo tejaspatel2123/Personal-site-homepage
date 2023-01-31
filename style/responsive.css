@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1000px) {
+  .name-section {
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .my-img img {
+    width: 120px;
+  }
+  .work-intro {
+    width: 100%;
+  }
+  .intro-one {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .cloud-left {
+    display: none;
+  }
+
+  .cloud-rigth {
+    right: 80%;
+    top: 30%;
+  }
+  .my-name {
+    width: 80%;
+  }
+  .my-description {
+    width: 80%;
+  }
+  .work-img {
+    width: 40%;
+  }
+
+  .work-img img {
+    width: 50%;
+  }
+
+  .work-discription {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .nav-bar {
+    padding-top: 20px;
+  }
+  .links ul {
+    gap: 15px;
+  }
+  ul li a {
+    font-size: 16px;
+  }
+  .me-img {
+    width: 50px;
+  }
+  .my-description p {
+    font-size: 18px;
+  }
+  .work-intro h1 {
+    font-size: 30px;
+  }
+  .work-discription h2 {
+    font-size: 20px;
+  }
+  .work-discription p {
+    font-size: 18px;
+  }
+
+  .help-section h1 {
+    font-size: 30px;
+  }
+
+  .help-section h2 {
+    font-size: 20px;
+  }
+
+  .help-section p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .work-img {
+    display: none;
+  }
+  .work-discription {
+    width: 90%;
+  }
+  button {
+    width: 150px;
+    font-size: 14px;
+  }
+  .footer-links ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .footer-links p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    margin-inline: auto;
+  }
+}
